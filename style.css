@@ -32,7 +32,7 @@ header{
 }
 /* --------------------kv------ */
 .main-visual{
-  background-image: url(../images/kv-img.jpg);
+  background-image: url(kv-img.jpg);
   background-position: center;
   background-size: cover;
   padding: 150px 0;
