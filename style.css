@@ -1,0 +1,122 @@
+/* ------------------base------ */
+body{
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Helvetica','Yu Gothic';
+  color: #333;
+}
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+section{
+  padding: 80px 0;
+}
+.section-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #e47b12;
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* -------------------header------ */
+header{
+  padding: 20px 0;
+  background-color: #e47b12;
+  text-align: center;
+}
+.site-title{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+/* --------------------kv------ */
+.main-visual{
+  background-image: url(../images/kv-img.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+}
+.kv-copy{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+/* -----------------はじめに------ */
+.section-text{
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+/* -----------------学習の心構え------ */
+.attitude-list{
+  text-align: center;
+}
+.attitude-item{
+  margin-bottom: 15px;
+}
+.attitude-item:last-of-type{
+  margin-bottom: 0px;
+}
+.bg-gray{
+  background-color: #f0f0f0;
+}
+/* -----------------学習すること------ */
+.study-list{
+  max-width: 800px;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.study-list-item{
+  width: 240px;
+}
+.syudy-text{
+  text-align: center;
+  margin:10px 0
+}
+.link-btn{
+  background-color: #e47b12;
+  display: block;
+  line-height: 48px;
+  width: 210px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+.link-btn:hover{
+  opacity: 0.7;
+}
+/* -----------------footer------ */
+footer{
+  background-color: #222;
+  text-align: center;
+  line-height: 48px;
+  color: #fff;
+  font-size: 12px;
+}
+
+@media screen and (max-width:767px){
+  /* -------------header_sp------ */
+  .site-title{
+    font-size: 26px;
+  }
+  /* -------------kv_sp------ */
+  .kv-copy{
+    font-size: 21px;
+  }
+  /* -------------学習すること_sp------ */
+  .study-list{
+    display: block;
+  }
+  .study-list-item{
+    margin: 0 auto 20px;
+  }
+  .study-list-item:last-of-type{
+    margin-bottom: 0;
+  }
+}
